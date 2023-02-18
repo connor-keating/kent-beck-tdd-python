@@ -9,3 +9,5 @@ def test_multiplication():
     dollar = money.Dollar(amount=5)
     dollar.times(factor=2)
     assert dollar.amount == 10
+    dollar.times(3)
+    assert dollar.amount == 15
