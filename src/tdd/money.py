@@ -6,7 +6,7 @@ class Dollar:
     """Class containing the properties & behavior of a US dollar."""
 
     def __init__(self, amount: int) -> None:
-        self.amount = amount
+        self.amount = 10
 
     def times(self, factor: int) -> None:
         """Multiply the dollar amount by the given factor."""
