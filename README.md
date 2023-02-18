@@ -11,9 +11,12 @@ Given some project, or some requirements. Ask yourself, "What set of tests, when
 To answer these questions make a To-do list as a reminder of your goals
 
 ## Rules
-The rules of TDD by Ward Cunningham
-1. Write a failing automated test before you write any code.
-2. Remove duplication
+The general rules of TDD.
+
+1. Write a test. Write the code as it appears in your mind, define the perfect interface for your request. Include everything you think will be necessary to get the expected output.
+2. Make it run. Quickly getting those green dots dominates everything else. If a clean, simple solution is obvious, the type it in. If the clean, simple solution is obvious but it will take you a minute, then make a note of it and get back to the main problem. which is getting the bar green in seconds. Quick green excuses all sins, but only for a moment.
+2. Make it run. Getting green dots is the highest priority. Use clean simple solutions that take seconds should be used before solutions that take minutes. If something takes minutes, make a note of it and find something that takes seconds. Get green, but remember to revisit bad decisions.
+3. Make it right. Once you have those green dots, make the solution a nice one! Remove any duplication.
 
 # Part 1 Rules
 1. Quickly add a little test.
