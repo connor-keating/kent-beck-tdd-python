@@ -43,3 +43,4 @@ Remember to work in small bite sized chunks and follow the rules of TDD. They'll
 - Dollar side effects?
 - Money rounding?
 - equals()
+    - Using value objects means one five object should equal another
