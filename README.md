@@ -16,7 +16,7 @@ The rules of TDD by Ward Cunningham
 2. Remove duplication
 
 # Part 1 Rules
-1. Quickly add a test.
+1. Quickly add a little test.
 2. Run all tests and see the new one fail.
 3. Make a little change.
 4. Run all tests and see them all succeed.
