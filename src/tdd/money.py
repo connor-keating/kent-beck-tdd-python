@@ -7,3 +7,7 @@ class Dollar:
 
     def __init__(self, amount: int) -> None:
         self.amount = amount
+
+    def times(self, factor: int) -> None:
+        """Multiply the dollar amount by the given factor."""
+        pass
