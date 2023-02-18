@@ -5,4 +5,5 @@
 class Dollar:
     """Class containing the properties & behavior of a US dollar."""
 
-    pass
+    def __init__(self, amount: int) -> None:
+        self.amount = amount
