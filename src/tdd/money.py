@@ -10,4 +10,4 @@ class Dollar:
 
     def times(self, factor: int) -> None:
         """Multiply the dollar amount by the given factor."""
-        self.amount = self.amount * 2
+        self.amount = self.amount * factor
