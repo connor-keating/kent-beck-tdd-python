@@ -32,7 +32,13 @@ Take the story and create action items for how to solve the customer's problem.
 
 The To-Do list keeps us focused on the project goals. As you finish items on the list cross them off. Don't be afraid to add more items to your list.
 
+Remember to work in small bite sized chunks and follow the rules of TDD. They'll take awhile to sink in!
+
 - Add two amounts in two different currencies and convert the result given a set of exchange rates.
 - Multiply an amount (price per share) by a number (number of shares) and recieve an amount.
 
-Remember to work in small bite sized chunks and follow the rules of TDD. They'll take awhile to sink in!
+- $5 + 10 CHF = $10 if rate is 2:1
+- $5 * 2 = $10
+- Make "amount" private
+- Dollar side effects?
+- Money rounding?
