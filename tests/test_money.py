@@ -7,7 +7,7 @@ from tdd.money import Dollar
 def test_multiplication():
     """Testing Dollar multiplication function."""
     five: Dollar = Dollar(amount=5)
-    five.times(factor=2)
-    assert five.amount == 10
-    five.times(3)
-    assert five.amount == 15
+    product: Dollar = five.times(factor=2)
+    assert product.amount == 10
+    product: Dollar = five.times(3)
+    assert product.amount == 15
