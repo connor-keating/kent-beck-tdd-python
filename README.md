@@ -24,3 +24,9 @@ The general rules of TDD.
 3. Make a little change.
 4. Run all tests and see them all succeed.
 5. Refactor to remove duplication.
+
+## Strategies
+1. Try faking it first to get to green
+2. Replace fake answers with the real implementation.
+
+If you encounter a red bar back up to faking it and refactor to the right code. 
