@@ -9,5 +9,5 @@ def test_multiplication():
     five: Dollar = Dollar(amount=5)
     product: Dollar = five.times(factor=2)
     assert product.amount == 10
-    product: Dollar = five.times(3)
+    product: Dollar = five.times(factor=3)
     assert product.amount == 15
