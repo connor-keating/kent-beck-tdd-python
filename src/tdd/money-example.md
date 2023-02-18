@@ -42,3 +42,4 @@ Remember to work in small bite sized chunks and follow the rules of TDD. They'll
 - Make "amount" private
 - Dollar side effects?
 - Money rounding?
+- equals()
