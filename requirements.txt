@@ -1,2 +1,6 @@
 black
+pylint
 pytest
+pytest-cov
+setuptools
+tox
